@@ -1,0 +1,11 @@
+WINDOWS
+https://github.com/SecureAuthCorp/impacket.git
+https://github.com/BloodHoundAD/BloodHound.git
+https://github.com/Hackplayers/evil-winrm.git
+https://github.com/gentilkiwi/mimikatz.git
+https://github.com/samratashok/nishang.git
+LINUX
+WEBAPP
+https://github.com/ffuf/ffuf.git
+WORDLISTS
+https://github.com/danielmiessler/SecLists.git
