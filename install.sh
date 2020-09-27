@@ -1,12 +1,15 @@
 #!/bin/bash
 
 CURRENT_DIRECTORY=$(pwd)
-echo -e "Current Directory: $CURRENT_DIRECTORY\x0A"
+echo "Current Directory: $CURRENT_DIRECTORY"
 
+# reads lines from repos.list
 while read line; do
-	if [ $line = "WINDOWS" ] || [ $line = "LINUX" ] || [ $line = "WEBAPP" ] || [ $line = "WORDLISTS" ]
+	# will only skip AWESOME_CHEATS as this list is large and potentially not needed at the moment
+	if [ $line != "AWESOME_CHEATS" ]
 	then
 		echo "Creating folder [$line]"
+		# create a folder for WINDOWS, LINUX, etc titles found in repos.list
 		if [ $CURRENT_DIRECTORY = $(pwd) ]
 		then
 			mkdir $line
