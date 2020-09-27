@@ -1,12 +1,14 @@
 #!/bin/bash
 
 CURRENT_DIRECTORY=$(pwd)
-echo -e "Current Directory: $CURRENT_DIRECTORY\x0A"
+echo "Current Directory: $CURRENT_DIRECTORY"
 
+# reads lines from repos.list
 while read line; do
-	if [ $line = "WINDOWS" ] || [ $line = "LINUX" ] || [ $line = "WEBAPP" ] || [ $line = "WORDLISTS" ]
+	if [[ $line != "https://"* ]];
 	then
 		echo "Creating folder [$line]"
+		# create a folder for WINDOWS, LINUX, etc titles found in repos.list
 		if [ $CURRENT_DIRECTORY = $(pwd) ]
 		then
 			mkdir $line
