@@ -5,8 +5,7 @@ echo "Current Directory: $CURRENT_DIRECTORY"
 
 # reads lines from repos.list
 while read line; do
-	# will only skip AWESOME_CHEATS as this list is large and potentially not needed at the moment
-	if [ $line != "AWESOME_CHEATS" ]
+	if [[ $line != "https://"* ]];
 	then
 		echo "Creating folder [$line]"
 		# create a folder for WINDOWS, LINUX, etc titles found in repos.list
