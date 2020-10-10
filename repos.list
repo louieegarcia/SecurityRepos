@@ -41,6 +41,7 @@ https://github.com/kahun/awesome-sysadmin
 https://github.com/vitalysim/Awesome-Hacking-Resources
 https://github.com/Lissy93/personal-security-checklist
 https://github.com/carlospolop/hacktricks
+https://github.com/Orange-Cyberdefense/arsenal
 CLOUD
 https://github.com/initstring/cloud_enum
 CMS
@@ -105,6 +106,9 @@ https://github.com/urbanadventurer/WhatWeb
 https://github.com/RustScan/RustScan
 https://github.com/angryip/ipscan
 https://github.com/robertdavidgraham/masscan
+https://github.com/blechschmidt/massdns
+https://github.com/projectdiscovery/shuffledns
+https://github.com/projectdiscovery/nuclei
 STEGO
 https://github.com/DominicBreuker/stego-toolkit
 WEBAPP
